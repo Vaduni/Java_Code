@@ -16,9 +16,9 @@ public class Pallindrone {
             temp /= 10;
         }
         if (num == reverse) {
-            System.out.println("Pallindrone number");
+            System.out.println(num+ " Pallindrone number");
         } else {
-            System.out.println("Not Pallindrone Number");
+            System.out.println(num+ " Not Pallindrone Number");
         }
     }
 }
