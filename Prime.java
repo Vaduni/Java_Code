@@ -10,7 +10,7 @@ public class Prime {
         int num = sc.nextInt();
         sc.close();
         if (num <= 1) {
-            System.out.println("The number is not prime");
+            System.out.println("The entered number is not prime");
             return;
         }
         for (int i = 2; i <= num / 2; i++) {
