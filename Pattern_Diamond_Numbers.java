@@ -8,7 +8,7 @@ public class Pattern_Diamond_Numbers {
         System.out.println("enter number of rows");
         int rows = sc.nextInt();
         sc.close();
-
+ 
         // upper half
         // outer loop for printing rows
         for (int i = 1; i <= rows; i++) {
