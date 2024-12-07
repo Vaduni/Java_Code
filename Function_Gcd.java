@@ -2,6 +2,7 @@ package Java_Code;
 
 import java.util.Scanner;
 
+//Subtraction based Eucldeian algorithm - not efficient
 public class Function_Gcd {
     public static int greatestCommonDivisor(int a, int b) {
         while (a != b) {
