@@ -1,8 +1,11 @@
 package Java_Code;
 
+//time complexity - O(n^2)
+
 public class Sort_Bubble {
     public static void printArray(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
+            // print array after each pass
             System.out.print(arr[i] + " ");
         }
         System.out.println();
