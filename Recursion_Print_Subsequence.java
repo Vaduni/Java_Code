@@ -1,5 +1,7 @@
 package Java_Code;
 
+//time Complexity:O(2^n)
+
 public class Recursion_Print_Subsequence {
     public static void subSequences(String str, int idx, String newString) {
         if (idx == str.length()) {
