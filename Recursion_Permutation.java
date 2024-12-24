@@ -1,5 +1,7 @@
 package Java_Code;
 
+//Time Complexity:O(n!)
+
 public class Recursion_Permutation {
     public static void printPerm(String str, String permutation) {
         if (str.length() == 0) {
