@@ -83,7 +83,9 @@ public class LinkedList {
         }
         secondLast.next = null;
     }
-
+public int  getSize(){
+return size;
+}
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.addFirst("Niranjan");
@@ -94,6 +96,6 @@ public class LinkedList {
         list.printList();
         list.deleteLast();
         list.printList();
-        System.out.println(list.size);
+        System.out.println(list.getSize());
     }
 }
