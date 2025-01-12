@@ -57,7 +57,9 @@ public class LinkedListIsPalindrome {
         LinkedListIsPalindrome list = new LinkedListIsPalindrome();
         LinkedNode head = list.new LinkedNode(1);
         head.next = list.new LinkedNode(2);
-    
+        head.next.next = list.new LinkedNode(3);
+        head.next.next.next = list.new LinkedNode(2);
+        head.next.next.next.next = list.new LinkedNode(1);
         System.out.println(list.isPalindrome(head));
     }
 }
