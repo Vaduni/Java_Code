@@ -40,12 +40,6 @@ public class LinkedListIsPalindrome {
         if (head == null || head.next == null) {
             return true;
         }
-        if (head.next.next == null) {
-            if (head.data == head.next.data) {
-                return true;
-            }
-            return false;
-        }
         LinkedNode middle = findMiddle(head);
         LinkedNode secondHalfStart = reverse(middle.next);
         LinkedNode firstHalfStart = head;
@@ -63,9 +57,7 @@ public class LinkedListIsPalindrome {
         LinkedListIsPalindrome list = new LinkedListIsPalindrome();
         LinkedNode head = list.new LinkedNode(1);
         head.next = list.new LinkedNode(2);
-        head.next.next = list.new LinkedNode(3);
-        head.next.next.next = list.new LinkedNode(2);
-        head.next.next.next.next = list.new LinkedNode(1);
+    
         System.out.println(list.isPalindrome(head));
     }
 }
