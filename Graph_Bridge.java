@@ -2,7 +2,7 @@ package Java_Code;
 
 import java.util.ArrayList;
 
-public class TarjansAlgo {
+public class Graph_Bridge {
     static class Edge {
         int src;
         int dest;
